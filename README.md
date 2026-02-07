@@ -5,13 +5,13 @@ Report authored in Markdown with an automated PDF build.
 ## Setup
 
 ```bash
-npm install
+yarn install
 ```
 
 ## Build PDF
 
 ```bash
-npm run build
+yarn build
 ```
 
 Generates `reports/initial-report/report.pdf` from `reports/initial-report/report.md`.
@@ -21,7 +21,7 @@ Generates `reports/initial-report/report.pdf` from `reports/initial-report/repor
 Re-build the PDF whenever `reports/initial-report/report.md` changes:
 
 ```bash
-npm run watch
+yarn watch
 ```
 
 ## Layout
