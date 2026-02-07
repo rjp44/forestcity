@@ -1,0 +1,14 @@
+{
+  "name": "forestcity-technology",
+  "version": "1.0.0",
+  "description": "Report source (Markdown) with automated PDF build",
+  "private": true,
+  "scripts": {
+    "build": "gulp pdf",
+    "watch": "gulp watch"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "md-to-pdf": "^5.2.5"
+  }
+}
