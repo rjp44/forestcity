@@ -20,9 +20,9 @@ The report is organised into **six chapters**, each reflecting a technology doma
 
 ### Chapter 1 — Energy
 
-This chapter will aim to describe plausible energy technology futures affecting affordability, resilience, and environmental performance, with particular attention to electrification, storage, and heat. It frames **heat as a first-class resource**—including waste heat harvesting and the potential role of data centre / edge compute heat recovery where economics and siting constraints make it viable. The chapter proposes design-in now provisions that preserve future flexibility, such as corridor and plant space for heat networks and multi-scale storage readiness, while remaining agnostic about specific technologies and vendors.
+This chapter examines the scale and architecture of the energy systems required to support a city of one million residents. It considers the implications of large-scale electrification, including preliminary modelling suggesting peak demand on the order of **~460 MVA**, and explores the constraints of relying on conventional grid connections, including limited nearby Grid Supply Point capacity and the potential need for multiple connections to the national transmission system.
 
-### Chapter 2 — Building technology
+The chapter then explores technologies that could materially reshape those assumptions, including distributed battery storage capable of smoothing peak demand, large-scale electrolysis producing hydrogen as a flexible energy sink, and potential local generation such as **Small Modular Reactors (SMRs) or other zero-carbon generation technologies**. It also treats **heat as a first-class energy resource**, examining opportunities for distrating based on data-centre heat recovery, large-scale underground thermal storage, and geothermal energy enabled by modern deep-drilling techniques.
 
 This chapter will aim to challenge default construction assumptions by exploring emerging pathways for faster, lower-carbon, higher-quality building at city scale. It is expected to cover industrialised construction, engineered timber and hybrid approaches, advanced prefabrication, and increasing automation/robotics in construction and verification. The chapter will likely focus on enabling conditions Forest City can specify—standards, tolerances, logistics staging, scan-as-built expectations, and data handover requirements—rather than advocating any single construction method.
 
@@ -122,13 +122,13 @@ Each technology (or technology cluster) is assessed against a simple rubric:
 
 ## Electricity supply architecture
 
-A city of one million residents will require electricity infrastructure at a scale rarely seen in recent UK developments. Preliminary modelling undertaken by the working group suggests a peak electrical demand on the order of **~460 MVA** if the city is fully electrified across heating, transport and buildings. This may actually be a low estimate once the electrical requirements of the transport system are fed in.
+A city of one million residents will require electricity infrastructure at a scale rarely seen in recent UK developments. Preliminary modelling undertaken by the working group suggests a peak electrical demand on the order of **~460 MVA** if the city is fully electrified across heating, transport and buildings. This may prove conservative once the electrical demands of the transport system and any heavy commercial users (e.g. data centres) are fully modelled.
 
 This figure should be treated as a **ballpark peak demand requirement**, but it provides a useful basis for evaluating the scale of infrastructure that may ultimately be required.
 
 Two broad electricity supply architectures are currently being considered.
 
-### Exclusively grid-supplied electricity model
+### Grid-supplied electricity model
 
 In the conventional model, the city would rely primarily on the national transmission system for electricity supply.
 
@@ -146,7 +146,7 @@ Using conventional planning assumptions, providing electricity infrastructure at
 
 One important factor that could significantly influence the final infrastructure requirement is the **ability to smooth peak demand**.
 
-The headline **~460 MVA peak demand** reflects a conventional planning assumption in which buildings draw power from the grid in real time with limited buffering storage or local generation capacity. However, emerging storage technologies and local generation (primarily solar) make it increasingly possible to shift and smooth electrical demand over time.
+The headline **~460 MVA peak demand** reflects a conventional planning assumption in which buildings draw power from the grid in real time with limited buffering, storage or local generation capacity. However, emerging storage technologies and local generation (primarily solar) make it increasingly possible to shift and smooth electrical demand over time.
 
 Modern **LiFePO₄ (lithium iron phosphate) battery systems** are sufficiently safe and cost-effective to be deployed at domestic scale. A battery pack roughly the size of a household refrigerator can store enough energy to supply a typical property for at least **24 hours of normal operation**, or more or less depending on efficiency and whether other primary heat sources besides electricity are used (see below)
 
