@@ -22,8 +22,14 @@ The report is organised into **six chapters**, each reflecting a technology doma
 
 This chapter examines the scale and architecture of the energy systems required to support a city of one million residents. It considers the implications of large-scale electrification, including preliminary modelling suggesting peak demand on the order of **~460 MVA**, and explores the constraints of relying on conventional grid connections, including limited nearby Grid Supply Point capacity and the potential need for multiple connections to the national transmission system.
 
-The chapter then explores technologies that could materially reshape those assumptions, including distributed battery storage capable of smoothing peak demand, large-scale electrolysis producing hydrogen as a flexible energy sink, and potential local generation such as **Small Modular Reactors (SMRs) or other zero-carbon generation technologies**. It also treats **heat as a first-class energy resource**, examining opportunities for distrating based on data-centre heat recovery, large-scale underground thermal storage, and geothermal energy enabled by modern deep-drilling techniques.
+The chapter then explores technologies that could materially reshape those assumptions, including distributed battery storage capable of smoothing peak demand, large-scale electrolysis producing hydrogen as a flexible energy sink, and potential local generation such as **Small Modular Reactors (SMRs) or other zero-carbon generation technologies**. It also treats **heat as a first-class energy resource**, examining opportunities for district heating based on data-centre heat recovery, large-scale underground thermal storage, and geothermal energy enabled by modern deep-drilling techniques.
 
+
+### Chapter 2 — Building technology
+
+This chapter will aim to challenge default construction assumptions by exploring emerging pathways for faster, lower-carbon, higher-quality building at city scale. It is expected to cover industrialised construction, engineered timber and hybrid approaches, advanced prefabrication, and increasing automation and robotics in construction and verification.
+
+The chapter will likely focus on enabling conditions Forest City can specify—standards, tolerances, logistics staging, scan-as-built expectations, and data handover requirements—rather than advocating any single construction method.
 
 ### Chapter 3 — Data networking
 
@@ -147,7 +153,7 @@ One important factor that could significantly influence the final infrastructure
 
 The headline **~460 MVA peak demand** reflects a conventional planning assumption in which buildings draw power from the grid in real time with limited buffering, storage or local generation capacity. However, emerging storage technologies and local generation (primarily solar) make it increasingly possible to shift and smooth electrical demand over time.
 
-Modern **LiFePO₄ (lithium iron phosphate) battery systems** are sufficiently safe and cost-effective to be deployed at domestic scale. A battery pack roughly the size of a household refrigerator can store enough energy to supply a typical property for at least **24 hours of normal operation**, or more or less depending on efficiency and whether other primary heat sources besides electricity are used (see below)
+Modern **LiFePO₄ (lithium iron phosphate) battery systems** are sufficiently safe and cost-effective to be deployed at domestic scale. A battery pack roughly the size of a household refrigerator can store enough energy to supply a typical property for at least **24 hours of normal operation**, depending on system efficiency and heating configuration and whether other primary heat sources besides electricity are used (see below)
 
 If large numbers of properties within the city were equipped with such storage, with or without local micro generation, and if these systems were orchestrated collectively, the city could effectively operate a **distributed battery fleet**.
 
@@ -215,6 +221,9 @@ Regardless of the final electricity generation strategy, several provisions appe
 - enabling future expansion of grid connections and local generation
 
 These provisions are relatively inexpensive to include during early planning but extremely difficult to retrofit once the city is built.
+
+The technologies discussed in this chapter should not be viewed as independent options but as components of a **coherent energy system**. Grid imports, local generation, distributed batteries, hydrogen electrolysis, district heating, thermal storage, geothermal energy and data-centre heat recovery can reinforce one another when designed together. Forest City therefore has an opportunity to treat energy infrastructure as an integrated system rather than a collection of separate utilities, enabling greater resilience, lower long-term costs and increased flexibility as technologies evolve.
+
 
 # Chapter 2 — Building technology
 
