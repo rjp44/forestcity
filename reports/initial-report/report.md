@@ -4,7 +4,7 @@
 
 **Authors:** Rob Pickering (rob@pickering.org)
 
-**Status:** Draft v0.1.0 (first pass chapter contents)
+**Status:** Draft v0.1.0 (first pass full chapter contents)
 
 ---
 
@@ -170,11 +170,16 @@ Such an approach could allow:
 
 If these technologies are deployed at scale, the **effective peak demand seen by the grid could be substantially lower than the raw demand of the city itself**. In that scenario the grid connections and upstream infrastructure required to support the city may be **materially smaller — and therefore less costly — than conventional planning assumptions suggest**.
 
+
 ### Energy-abundance model: SMR or other zero-carbon generation
 
-An alternative architecture would treat electricity not as a constrained resource but as a **strategic abundance**.
+Much of the near-term UK commercial environment encourages energy minimisation: electricity is expensive, grid upgrades are constrained, and many sensible design choices are about reducing demand and shifting load. That remains a rational default response to the current national energy context.
 
-In this model the city could host significant on-site generation capacity, potentially including **Small Modular Reactors (SMRs) or other forms of large-scale zero-carbon generation**.
+However, one plausible future is the opposite: a world of abundant electricity, driven by a combination of new nuclear (including SMR programmes), grid-scale renewables, storage, and other developments that materially reduce marginal cost and increase supply. In such a world, the binding constraint for homes and businesses may move from "energy scarcity" to "how do we take advantage of cheap, plentiful power safely and flexibly?"
+
+If that future materialises, households and local businesses could adopt technologies with far higher electrical demand than current norms—examples might include robotics (potentially including humanoid robots), more intensive local automation, high-capacity charging, and substantially increased local or regional compute footprints. Even if these outcomes arrive unevenly, the retrofit cost of upgrading end-consumer electrical supply and local distribution capacity could be extremely high relative to the modest incremental cost of designing-in headroom during initial construction.
+
+An alternative architecture would treat electricity not as a constrained resource but as a **strategic abundance**.
 
 Under this scenario the city could produce a substantial proportion of its electricity locally rather than relying primarily on grid imports.
 
@@ -185,9 +190,32 @@ The implications of this approach could include:
 - hydrogen production and industrial processes
 - long-term energy cost stability
 
-If periods of electricity abundance arise, the city could also support **large-scale electrolysis facilities to produce hydrogen**. Electrolysers can act as flexible electrical loads, absorbing surplus electricity and converting it into storable fuel for transport, industry or long-term energy storage.
+If periods of electricity abundance arise, the city could both become a net exporter and also support **large-scale electrolysis facilities to produce hydrogen**. Electrolysers can act as flexible electrical loads, absorbing surplus electricity and converting it into storable fuel for transport, industry or long-term energy storage.
 
 However, the SMR-based architecture is currently treated as a **strategic option rather than a dependency**. The development and its core infrastructure should not rely on the availability of SMR technology, given the regulatory, financing and programme uncertainties involved.
+
+### End-consumer supply: three-phase, high-current service provision (design-in now)
+
+Forest City should strongly recommend that every end-consumer's premises are provided with **three-phase supply capability** and service equipment/tails sized to **at least 100 amps**, even if initial loads do not require it.
+
+- This recommendation should be framed as optionality rather than immediate necessity.
+- The incremental physical cost of installing two additional conductors and appropriately rated service heads during initial construction is expected to be small compared to the cost and disruption of retrofitting later.
+- A three-phase baseline also improves flexibility for future electrification and load-balancing, even in an energy-constrained world.
+
+**Important caveat:** The local Distribution Network Operator (DNO) will ultimately decide network design and service criteria using their standard commercial and engineering processes. The recommendation here is not to override DNO authority, but to ensure Forest City's masterplan, building standards, and developer requirements do not inadvertently lock premises into a low-capacity single-phase future that becomes a long-term constraint.
+
+### Local distribution: over-provisioning HV capacity or building for expansion
+
+Forest City should recommend that the physical distribution build is planned around easy expansion, either via:
+
+- Over-provisioned **11 kV and 33 kV** capability (where justified and feasible), and/or
+- **Ducting-first construction** that makes additional conductors simple to add later without re-digging.
+
+In practical terms, the guiding principle should be:
+
+- Prefer ducting used exclusively (or as the dominant approach) for distribution routes where future growth is plausible.
+- Target low initial utilisation (e.g., designing routes so that early deployments run at ~10–30% of eventual capacity), leaving space for additional conductors and upgrades with minimal disruption.
+- Ensure route planning, easements, and access rights anticipate future cable additions, jointing access, and substation expansion.
 
 ### Data centres, heat recovery and district heating
 
@@ -670,37 +698,56 @@ During Phase 1 discussions, a number of additional "no-brainer" technology requi
 
 The intention is not to claim these are fully proven or optimised. Instead, it is to ensure they remain visible as later phase plans and specifications are developed, and to prompt deeper analysis where needed. These items should be revisited and either promoted into fuller chapters, adopted as baseline requirements, or explicitly rejected with rationale.
 
-## Planning for near term energy conservation and medium/long term energy abundance
+## Autonomous Vehicles vs Trains, Trams and Buses
 
-Much of the near-term UK commercial environment encourages energy minimisation: electricity is expensive, grid upgrades are constrained, and many sensible design choices are about reducing demand and shifting load. That remains a rational default.
+This section is intentionally presented as a wildcard thought experiment rather than a transport recommendation. The purpose is not to replace or pre-empt the detailed work of the transport planning team, but to challenge some common assumptions about how autonomous vehicles might interact with high-density urban transport systems.
 
-However, one plausible longer-term future is the opposite: a world of abundant electricity, driven by a combination of new nuclear (including SMR programmes), grid-scale renewables, storage, and other developments that materially reduce marginal cost and increase supply. In such a world, the binding constraint for homes and businesses may move from "energy scarcity" to "how do we take advantage of cheap, plentiful power safely and flexibly?"
+Recent advances in autonomous vehicle (AV) technology have prompted speculation that fleets of self-driving vehicles could fundamentally change urban transport systems. In such scenarios, fleets of on-demand vehicles might combine the convenience of private transport with the utilisation efficiencies of shared fleets, potentially reducing the need for private car ownership and large areas of parking.
 
-If that future materialises, households and local businesses could adopt technologies with far higher electrical demand than current norms—examples might include robotics (potentially including humanoid robots), more intensive local automation, high-capacity charging, and substantially increased local or regional compute footprints. Even if these outcomes arrive unevenly, the retrofit cost of upgrading end-consumer electrical supply and local distribution capacity could be extremely high relative to the modest incremental cost of designing-in headroom during initial construction.
+Such systems may prove particularly valuable in lower-density environments, where conventional public transport struggles to provide convenient frequencies and coverage. Autonomous fleets could provide flexible, point-to-point mobility without requiring every household to own a vehicle.
 
-### End-consumer supply: three-phase, high-current service provision (design-in now)
+However, the underlying capacity physics of road transport remain largely unchanged when vehicles retain the basic size and operating characteristics of today's cars.
 
-Forest City should strongly recommend that every end-consumer's premises are provided with **three-phase supply capability** and service equipment/tails sized to **at least 100 amps**, even if initial loads do not require it.
+Even if vehicles become autonomous, a typical car-sized vehicle still occupies roughly 8–12 m² of road space, must maintain safe separation from other vehicles, and typically carries one to four occupants, often just one. These characteristics impose a fundamental limit on how many people can be moved through a corridor per hour.
 
-- This recommendation should be framed as optionality rather than immediate necessity.
-- The incremental physical cost of installing two additional conductors and appropriately rated service heads during initial construction is expected to be small compared to the cost and disruption of retrofitting later.
-- A three-phase baseline also improves flexibility for future electrification and load-balancing, even in an energy-constrained world.
+By contrast, fixed-route mass transport systems can achieve far higher throughput within the same corridor width.
 
-**Important caveat:** The local Distribution Network Operator (DNO) will ultimately decide network design and service criteria using their standard commercial and engineering processes. The recommendation here is not to override DNO authority, but to ensure Forest City's masterplan, building standards, and developer requirements do not inadvertently lock premises into a low-capacity single-phase future that becomes a long-term constraint.
+Typical peak corridor capacities are approximately:
 
-### Local distribution: over-provisioning HV capacity or building for expansion
+- Urban road with cars: ~1,500–2,000 vehicles/hour/lane (often only a few thousand passengers per hour depending on occupancy)
+- Bus rapid transit: ~5,000–15,000 passengers/hour/direction
+- Light rail / tram: ~7,000–20,000 passengers/hour/direction
+- Heavy rail / metro: ~30,000–80,000 passengers/hour/direction
 
-Forest City should recommend that the physical distribution build is planned around easy expansion, either via:
+These differences arise primarily from vehicle size and headway efficiency, not from whether the vehicle is human-driven or autonomous.
 
-- Over-provisioned **11 kV and 33 kV** capability (where justified and feasible), and/or
-- **Ducting-first construction** that makes additional conductors simple to add later without re-digging.
+As a result, autonomous vehicles that retain conventional car form factors are unlikely to replace high-capacity transport modes on dense urban trunk routes, where the challenge is moving very large numbers of passengers per hour during peak periods.
 
-In practical terms, the guiding principle should be:
+Autonomous vehicles may nevertheless deliver improvements in other areas, including reducing the need for private parking, improving vehicle utilisation through shared fleets, enabling more flexible transport in suburban areas, and allowing more dynamic traffic management.
 
-- Prefer ducting used exclusively (or as the dominant approach) for distribution routes where future growth is plausible.
-- Target low initial utilisation (e.g., designing routes so that early deployments run at ~10–30% of eventual capacity), leaving space for additional conductors and upgrades with minimal disruption.
-- Ensure route planning, easements, and access rights anticipate future cable additions, jointing access, and substation expansion.
+A more speculative possibility is that autonomous transport systems might evolve beyond today's car form factors.
 
+One hypothetical model would involve small autonomous mobility pods operating independently within neighbourhood streets while dynamically joining larger composite vehicles when entering high-capacity corridors. In such a system, a small vehicle could collect passengers close to their point of origin, travel slowly through neighbourhood streets, and then join with other vehicles travelling in the same direction before entering a dedicated trunk route.
+
+This concept is better understood as a dynamically composed tram system rather than a conventional road train. The idea is that vehicles remain personal and flexible at the edges of the network, but behave like mass transit once they enter the main corridor.
+
+Key characteristics could include:
+
+- small autonomous feeder vehicles for neighbourhood pickup
+- dedicated or semi-dedicated trunk corridors
+- automated coupling or tightly coordinated platooning
+- rapid joining and splitting at stations
+- through-routing that reduces interchange penalties
+
+If such systems proved technically and operationally viable, they could potentially reconcile the convenience of personal transport with the throughput advantages of rail-like systems. The capacity improvement would not come simply from removing the human driver, but from allowing vehicles to operate as higher density larger composite transport units once they enter the trunk corridor.
+
+However, this concept should be treated as highly speculative. Historically, even relatively simple transport innovations take decades to achieve widespread adoption. Especially ones like this that require substantial specialist infrastructure investment.
+
+Transport choices are also influenced by psychological and cultural preferences as much as engineering efficiency. Privacy, comfort, perceived safety and control over the journey strongly influence behaviour and public debate around transport systems.
+
+For Forest City, the practical conclusion is that multiple transport modes will almost certainly coexist. Autonomous vehicles may improve flexibility and reduce parking requirements, particularly in lower-density areas. However, high-density corridors will still require transport systems capable of moving very large numbers of people efficiently.
+
+The purpose of this comment is therefore not to propose a specific transport solution, but simply to highlight a possible future architecture that could emerge as a wildcard.
 
 ---
 
