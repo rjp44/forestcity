@@ -348,25 +348,154 @@ The objective of this chapter is therefore not to select a single construction t
 
 # Chapter 3 — Data networking
 
-## What this chapter will cover
+## Connectivity as foundational infrastructure
 
-- Neutral fibre ducting as foundational, long-lived infrastructure
-- Data demand drivers over decades (home/work/health/education/industry)
-- Particular focus on "future of life/work" in an AI driven world of abundance, data infrastructure supporting emerging new life patterns.
-- Synergies and co-dependence between fibre and wireless (5G/6G, Wi-Fi, private networks)
-- Where we connect up to very high capacity network routes: research local fibre routes, not aware of any major routes through the Forest City footprint but there is currently high capacity (GBN/LBF) University owned ducting and fibre network which goes as far as Babraham/Hinxton/Fulbourn, possibly Linton now. Also a commercial provider (Xayo) in Haverhill and on a northerly route through Newmarket to a cable landing point at Lowestoft and major providers in the M11/London to Ely rail line corridor.
+High-capacity data connectivity is a foundational requirement for a modern city. As economic activity, services and public infrastructure become increasingly digital, the resilience, capacity and openness of the underlying communications infrastructure will have long-term implications for economic development, innovation and civic services.
 
+For a new city built at large scale, it becomes possible to treat communications infrastructure as long-lived civic infrastructure, similar in importance to roads, water systems or electricity networks.
 
-## Outline thoughts we will report on
+Forest City therefore has an opportunity to design connectivity infrastructure from the outset in a way that prioritises resilience, openness and long-term competition rather than relying on ad-hoc commercial deployments.
 
-- A "build the hard stuff right first time" mindset: avoid re-digging and retrofit disruption
-- Neutral host ducting: enable competition, resilience, and future services
-- Co-design fibre and wireless: densification needs more backhaul, more mounting, and more power
-- Design-in now: copious ducting, comms rooms in multi-unit buildings, risers, rooftop access,
-  safe antenna mounting rights, street-furniture power/backhaul points
-- Strategy for extending and POPing interconnect points between major networks and FC carrier neutral facilities as a minimum.
-- Networking vision to attract anchor carriers and routes to make and maintain FC as a major (=high capacity + low cost) UK redundant network backbone location
-- Wildcards: 6G capabilities (including sensing/positioning), dense edge compute
+## Strategic fibre routes through the site
+
+The proposed Forest City footpenefits from the presence of several significant fibre infrastructure assets in the surrounding area.
+
+Most notably, a major transnational fibre route linking London and Amsterdam passes close to the site and is believed to include a repeater or amplification facility within or near the development boundary.
+
+This route forms part of the wider European long-haul fibre network and provides extremely high-capacity connectivity between major digital hubs including London, Amsterdam and other European exchange points.
+
+In addition, Cambridge City Council and the University of Cambridge operate fibre ducting extending from Cambridge toward Linton, which runs close to the boundary of the proposed development area.
+
+Taken together, these assets mean that Forest City has the potential to obtain direct fibre access toward Cambridge, London and Amsterdam, providing an unusually strong foundation for digital connectivity.
+
+## Connectivity along transport corridors
+
+Major fibre routes are often installed alongside transport infrastructure such as railways, motorways and trunk roads. These corridors provide relatively secure, continuous rights-of-way for long-distance fibre cables.
+
+The proposed development area is located close to several such transport corridors, increasing the likelihood that additional fibre routes will either pass through the site or can be connected to it relatively easily.
+
+The presence of multiple routes significantly improves resilience, as fibre networks can be designed so that traffic can automatically reroute if a cable is damaged.
+
+This combination of international trunk fibre, regional fibre routes and transport-corridor connectivity creates an opportunity to design Forest City’s data infrastructure with unusually high levels of redundancy and capacity from the outset.
+
+## District connectivity centres
+
+Rather than treating connectivity as a purely centralised system, Forest City could adopt a distributed connectivity architecture.
+
+One ssible model would be to establish a number of district connectivity centres located throughout the city. These facilities would act as local aggregation points where fibre from buildings, neighbourhoods and mobile networks connects into the wider metropolitan and international fibre network.
+
+Each connectivity centre could include:
+
+- carrier interconnection facilities
+- fibre distribution frames
+- mobile network backhaul aggregation
+- edge computing or micro-data-centre capacity
+
+By interconnecting these facilities using high-capacity fibre routes arranged in a city-wide ring topology, Forest City could achieve extremely high resilience.
+
+If any single fibre segment were cut, traffic could simply be routed around the ring in the opposite direction.
+
+Such an architecture would also allow data centres and digital infrastructure to be distributed across the city rather than concentrated in a single location.
+
+## Data centres and digital infrastructure
+
+Strong fibre connectivity naturally creates opportunities for the development of data centre infrastructure.
+
+Modern data centres often seek locations that combine reliable power infrastructure, multiple independent fibre routes and proximity to major digital markets.
+
+Forest City could therefore be an attractive location for data centres serving workloads in Cambridge, London and continental Europe.
+
+As discussed in Chapter 1, co-location of data centres near primary energy infrastructure could also enable large-scale heat recovery, allowing waste heat from computing infrastructure to be captured and used in district heating systems.
+
+The relationship between power infrastructure, fibre connectivity and heat networks therefore represents a potential opportunity for integrated infrastructure planning.
+
+## Local exchange fabrics and ultra-low-latency workloads
+
+The presence of high-capacity international fibre routes near the development also creates the possibility of establishing a local internet exchange fabric within Forest City.
+
+This should not be viewed as an attempt to create a new national or international internet exchange comparable to existing hubs such as the London Internet Exchange or the Amsterdam Internet Exchange. Forest City’s geographic proximity to London means that the latency advantages of such a facility for conventional internet traffic would likely be limited.
+
+Instead, the primary value of a local exchange would be enabling ultra-high-bandwidth traffic between organisations located within the city itself.
+
+Modern compute workloads increasingly involve large volumes of east-west traffic between distributed compute clusters. Examples include distributed GPU training clusters for machine learning, large-scale simulation and modelling, edge computing and data-processing pipelines, and high-bandwidth research networks.
+
+In many cases these rkloads benefit from data-centre-class latency and extremely high throughput between facilities, even when those facilities are located in different buildings.
+
+By establishing a local exchange fabric interconnecting district connectivity centres and data centres within Forest City, organisations could achieve latency characteristics approaching those of intra-data-centre networks while still operating across multiple independent facilities.
+
+With modern optical transport technologies already supporting multiple terabits per second of capacity on a single fibre pair, it is plausible that such a city-scale exchange fabric could operate at aggregate capacities measured in terabits per second, particularly as AI and high-performance computing workloads continue to expand.
+
+Such an architecture would allow companies and research institutions within the city to deploy distributed computing systems spanning multiple sites without requiring that all compute infrastructure be concentrated within a single large data centre.
+
+## Ownership and governance models for fibre infrastructure
+
+A key decision for any new city is how the underlying fibre infrastructure should be owned and governed.
+
+Several models are possible.
+
+### Carrier-built infrastructure
+
+The most common model in existing developments is to allow telecommunications operators to build their own infrastructure independently.
+
+While this approach requires little initial investment from the city, it often leads to duplicated infrastructure, uneven coverage and reduced competition in areas served by a single provider.
+
+In some cases the first operator to deploy infrastructure can effectively establish a local monopoly, limiting competition and consumer choice.
+
+### Municipal fibre networks
+
+Some cities choose to build and operate their own fibre networks, providing services directly to residents and businesses.
+
+Municipal fibre networks can ensure universal coverage and competitive pricing, but they require significant operational expertise and ongoing management.
+
+Operating a telecommunications network may not align with the core competencies of a city authority.
+
+### Municipal carrier-neutral ducting
+
+An alternative approach is for the city to build and maintain carrier-neutral ducting infrastructure while allowing telecommunications providers to install their own fibre within those ducts.
+
+Under this model the city acts as the owner of the passive infrastructure while private operators compete to deliver services.
+
+This approach can significantly lower the cost of market entry for new providers and helps prevent monopolistic infrastructure ownership.
+
+### Dark fibre co-operative models
+
+A further option is to establish a dark fibre co-operative.
+
+Under this model the city sponsors the construction of shared fibre infrastructure that is made available to multiple telecommunications providers on non-discriminatory wholesale terms.
+
+Participating carriers can light the fibre with their own equipment and offer services independently, while the underlying infrastructure remains shared.
+
+This approach can combine strong competition between service providers with efficient use of physical infrastructure and reduced duplication of civil works.
+
+## Forest City as a distributed hyperscale campus
+
+Taken together, the connectivity architecture described in this chapter suggests the possibility of treating Forest City as a distributed hyperscale digital campus.
+
+Rather than concentrating computing infrastructure within a single large data centre complex, the city could support a network of interconnected facilities linked through high-capacity fibre rings and local exchange fabrics.
+
+District connectivity centres, carrier-neutral ducting and multiple independent fibre routes would allow organisations to deploy computing infrastructure across multiple buildings while maintaining extremely high bandwidth and low latency between sites.
+
+In effect, the city itself could function as a large-scale distributed data-centre environment capable of supporting workloads that traditionally require tightly coupled computing infrastructure.
+
+As optical networking technologies continue to advance and terabit-per-second fabrics become commonplace, it becomes increasingly plausible for geographically distributed facilities within a city to operate as part of a single high-performance computing system.
+
+This model could make Forest City particularly attractive to AI research organisations, high-performance computing users and data-intensive industries.
+
+## Early infrastructure provisions
+
+As with energy and construction systems, the most important step for Forest City is to ensure that the physical provisions required for high-quality connectivity are included from the outset.
+
+Low-regret provisions include:
+
+- installing extensive carrier-neutral ducting throughout the city
+- ensuring all buildings include appropriate fibre entry points and risers
+- reserving locations for district connectivity centres
+- protecting routes for long-distance fibre corridors
+- enabling easy interconnection with regional and international fibre networks
+
+Once streets, buildings and underground utilities are constructed, retrofitting such infrastructure becomes extremely expensive.
+
+Ensuring that the city’s physical design supports high-capacity fibre connectivity from the start is therefore likely to be one of the most valuable long-term digital infrastructure investments Forest City can make.
 
 # Chapter 4 — Digital twins and the Open Source City
 
