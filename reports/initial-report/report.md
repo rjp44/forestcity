@@ -24,7 +24,6 @@ This chapter examines the scale and architecture of the energy systems required 
 
 The chapter then explores technologies that could materially reshape those assumptions, including distributed battery storage capable of smoothing peak demand, large-scale electrolysis producing hydrogen as a flexible energy sink, and potential local generation such as **Small Modular Reactors (SMRs) or other zero-carbon generation technologies**. It also treats **heat as a first-class energy resource**, examining opportunities for distrating based on data-centre heat recovery, large-scale underground thermal storage, and geothermal energy enabled by modern deep-drilling techniques.
 
-This chapter will aim to challenge default construction assumptions by exploring emerging pathways for faster, lower-carbon, higher-quality building at city scale. It is expected to cover industrialised construction, engineered timber and hybrid approaches, advanced prefabrication, and increasing automation/robotics in construction and verification. The chapter will likely focus on enabling conditions Forest City can specify—standards, tolerances, logistics staging, scan-as-built expectations, and data handover requirements—rather than advocating any single construction method.
 
 ### Chapter 3 — Data networking
 
