@@ -10,9 +10,9 @@
 
 ## Executive summary (draft, forward-looking placeholder, intentionally provisional at this stage)
 
-This report is the Phase 1 output of the Forest City 1 **Future Proof Technology Working Group**. It is intended to inform later phase masterplanning and the detailed business case by highlighting technology shifts that *may* materially affect the shape of the city, and by proposing low-regret "design-in now" provisions that *could* preserve optionality over decades.
+This report is the Phase 1 output of the Forest City 1 **Future Proof Technology Working Group**. It is intended to inform later phase masterplanning and the detailed business case by highlighting technology shifts that **may** materially affect the shape of the city, and by proposing low-regret "design-in now" provisions that **could** preserve optionality over decades.
 
-Forest City will make a set of early choices—about civils, corridors, plant space, network ducting, access rights, standards and governance—that will be extremely difficult to unwind later. Those choices must remain robust not only under today's technologies, but under likely shifts in energy systems, construction methods, connectivity, sensing, and digital governance. This report is therefore being drafted to focus on **technology shifts that affect the shape of the city**, not short-lived product decisions. It is intended to be usable by other working groups as a practical input to masterplanning and to the business case: identifying what we think *may* change, how those changes *could* impact planning assumptions, and what low-regret provisions *might* preserve optionality.
+Forest City will make a set of early choices—about civils, corridors, plant space, network ducting, access rights, standards and governance—that will be extremely difficult to unwind later. Those choices must remain robust not only under today's technologies, but under likely shifts in energy systems, construction methods, connectivity, sensing, and digital governance. This report is therefore being drafted to focus on **technology shifts that affect the shape of the city**, not short-lived product decisions. It is intended to be usable by other working groups as a practical input to masterplanning and to the business case: identifying what we think **may** change, how those changes **could** impact planning assumptions, and what low-regret provisions **might** preserve optionality.
 
 The recommendations and priorities summarised here are **very draft**. At this stage, the report structure and early chapter text are being used to frame the problem, identify candidate requirements, and surface likely "no-regret" provisions. The executive summary therefore describes what the report **will** aim to recommend, rather than claiming the chapters already provide complete substantiation. As the chapters are expanded, each recommendation will need evidence, cost/benefit framing, and explicit ownership and delivery implications.
 
@@ -52,7 +52,7 @@ Forest City 1 is an unusually ambitious proposition: a new city built at scale a
 
 The Future Proof Technology Working Group exists because the project's built-environment decisions will be made in the near term, but the city must continue to work well for decades. If we optimise only for "today's" technologies, we risk repeating familiar failures of long-lived infrastructure—where retrofitting becomes disruptive, expensive, or simply impossible at the scale a city demands.
 
-Our Phase 1 task is therefore to identify a small set of technology shifts that it would be an oversight *not* to plan for as Forest City moves into later phases (detailed business case and masterplanning). The focus is on technology that changes assumptions, constraints, and required provisions, not on selecting products.
+Our Phase 1 task is therefore to identify a small set of technology shifts that it would be an oversight **not** to plan for as Forest City moves into later phases (detailed business case and masterplanning). The focus is on technology that changes assumptions, constraints, and required provisions, not on selecting products.
 
 ### The scope and intent
 
@@ -182,7 +182,7 @@ This chapter considers a range of plausible futures in which **digital twin** pr
 
 The core question is not whether Forest City should build a single "master digital twin platform", but what **minimum standards, capture practices, and interoperability requirements** Forest City should set so that:
 
-1) we can quickly generate reliable *baseline* digital twins of the development site,  
+1) we can quickly generate reliable **baseline** digital twins of the development site,  
 2) we can maintain living digital twins as designs develop and construction progresses,  
 3) data remains usable across multiple disciplines, contractors, and tools without being trapped in proprietary formats, and  
 4) openness (where safe) becomes a compounding civic asset rather than a one-off publishing exercise.
@@ -296,7 +296,7 @@ Forest City should therefore consider the following minimum responses:
 
 ## What this chapter will cover
 
-This chapter explores potential futures in which federated, open smart home technology plays a role in energy coordination, security and resident well-being. We consider scenarios where homes and buildings coordinate in ways that *could* support improved energy efficiency, demand management, and resident protection. While elements of these systems may mature over the development cycle, the direction, pace, and social acceptability of adoption are uncertain. The emphasis here is therefore on *optionality*: what Forest City should do now to avoid blocking beneficial futures, without assuming any single technical outcome.
+This chapter explores potential futures in which federated, open smart home technology plays a role in energy coordination, security and resident well-being. We consider scenarios where homes and buildings coordinate in ways that **could** support improved energy efficiency, demand management, and resident protection. While elements of these systems may mature over the development cycle, the direction, pace, and social acceptability of adoption are uncertain. The emphasis here is therefore on **optionality**: what Forest City should do now to avoid blocking beneficial futures, without assuming any single technical outcome.
 
 ## Outline thoughts we will report on
 
@@ -311,13 +311,13 @@ This chapter explores potential futures in which federated, open smart home tech
 
 ## How Forest City should respond
 
-Forest City is unlikely to build federated smart home platforms itself. The key decision is therefore what minimum enabling conditions the city *should* create so that residents, landlords, innovators, and service providers can adopt mature systems later without costly or disruptive retrofits. This can be framed as a set of practical recommendations:
+Forest City is unlikely to build federated smart home platforms itself. The key decision is therefore what minimum enabling conditions the city **should** create so that residents, landlords, innovators, and service providers can adopt mature systems later without costly or disruptive retrofits. This can be framed as a set of practical recommendations:
 
 1. **Provide clean, open interface points at the city layer**  
-   City-managed systems (especially energy-related systems) should expose well-defined, standards-based interfaces that future smart home/federation platforms *could* connect to—covering areas such as tariff signals, demand response events, local capacity constraints, and (where appropriate) aggregated reporting. These interfaces should be designed to avoid lock-in, minimise data collection, and support multiple competing ecosystems.
+   City-managed systems (especially energy-related systems) should expose well-defined, standards-based interfaces that future smart home/federation platforms **could** connect to—covering areas such as tariff signals, demand response events, local capacity constraints, and (where appropriate) aggregated reporting. These interfaces should be designed to avoid lock-in, minimise data collection, and support multiple competing ecosystems.
 
 2. **Design in physical "sensor readiness" as a low-regret provision**  
-   The built environment should make future sensing and device deployment straightforward. This *could* be as simple as:  
+   The built environment should make future sensing and device deployment straightforward. This **could** be as simple as:  
    - providing ducting/conduit routes that reach key rooms and likely sensor locations  
    - ensuring convenient power availability for low-voltage devices (or clear upgrade paths)  
    - making maintenance/retrofit access non-disruptive (service voids, accessible risers, sensible mounting options)  
