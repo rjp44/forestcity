@@ -392,13 +392,13 @@ Forest City therefore has an opportunity to design connectivity infrastructure f
 
 The proposed Forest City footprint benefits from the presence of several significant fibre infrastructure assets in the surrounding area.
 
-Most notably, a major transnational fibre route linking London and Amsterdam passes close to the site and is believed to include a repeater or amplification facility within or near the development boundary.
+Most notably, a major transnational fibre route linking London and Amsterdam passes close to the site and is believed to include a possible breakout site within or near the development boundary.
 
 This route forms part of the wider European long-haul fibre network and provides extremely high-capacity connectivity between major digital hubs including London, Amsterdam and other European exchange points.
 
 In addition, Cambridge City Council and the University of Cambridge operate fibre ducting extending from Cambridge toward Linton, which runs close to the boundary of the proposed development area.
 
-Taken together, these assets mean that Forest City has the potential to obtain direct fibre access toward Cambridge, London and Amsterdam, providing an unusually strong foundation for digital connectivity.
+Taken together, these assets mean that Forest City has the potential to obtain direct dark fibre access toward Cambridge, London and Amsterdam, providing an unusually strong foundation for digital connectivity.
 
 ## Connectivity along transport corridors
 
