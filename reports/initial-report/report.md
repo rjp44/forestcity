@@ -227,20 +227,124 @@ The technologies discussed in this chapter should not be viewed as independent o
 
 # Chapter 2 — Building technology
 
-## What this chapter will cover
+## Construction at city scale
 
-- Faster + lower-carbon construction pathways
-- Industrialised construction and mass customisation
-- Automation/robotics and quality assurance across a long build-out programme
+Forest City represents an unusually large and sustained construction programme. Delivering housing, civic buildings and infrastructure for a city of one million residents will require construction methods capable of operating **reliably, quickly and repeatedly over decades**.
 
-## Outline thoughts we will report on
+Traditional UK construction approaches often struggle with cost predictability, labour availability, build speed and carbon intensity. As a result, it is plausible that the technologies and methods used to construct Forest City may differ significantly from those used in recent UK developments.
 
-- Engineered timber (CLT and hybrids): carbon, speed, supply chain, and code pathways
-- Prefab at scale: volumetric vs panelised vs hybrid approaches; implications for logistics
-- Robotic systems: autonomous earthworks, robotic placement/finishing, inspection drones
-- Custom stone milling / CNC "craft at scale" and local supply chain opportunities
-- Design-in now: component tolerances/standards, logistics staging, scan-as-built QA, digital twins
-- Wildcards: low-carbon cement scaling, automated compliance, circular materials marketplaces
+This chapter therefore examines emerging building technologies and construction approaches that could materially affect how the city is delivered, with particular attention to **industrialised construction, engineered timber systems, automation and robotics, and digital quality assurance**.
+
+The objective is not to prescribe a single construction method, but to identify the **enabling conditions Forest City should design into the development** so that multiple construction approaches remain viable.
+
+## Industrialised construction
+
+One of the most significant shifts in construction globally is the gradual move toward **industrialised construction**.
+
+Instead of constructing most building components on site, industrialised approaches manufacture large parts of buildings in controlled factory environments before transporting them to site for assembly. These approaches include:
+
+- volumetric modular construction  
+- panelised building systems  
+- hybrid prefabricated structures combining factory and on-site work  
+
+Industrialised construction can offer several advantages at the scale required for Forest City:
+
+- faster build times  
+- improved quality control  
+- reduced waste  
+- more predictable costs  
+- reduced reliance on scarce on-site labour  
+
+However, such approaches impose different logistical and design constraints. Transport limits, crane capacity, staging areas and supply chains become critical elements of the construction system.
+
+For a development of Forest City's scale, the ability to support **high-throughput, factory-supported construction methods** could significantly accelerate delivery while improving build quality.
+
+## Engineered timber and hybrid structures
+
+Another technology likely to influence future construction is the increasing use of **engineered timber systems**, particularly cross-laminated timber (CLT) and related products.
+
+Engineered timber offers several potential advantages:
+
+- significantly reduced embodied carbon compared with conventional concrete structures  
+- rapid assembly using prefabricated structural elements  
+- high structural strength-to-weight ratios  
+- opportunities for hybrid structures combining timber, steel and concrete  
+
+Many European cities are already seeing mid-rise and high-rise buildings constructed using timber or hybrid structural systems.
+
+For Forest City, engineered timber could play an important role in reducing the carbon footprint of the development while also supporting faster construction cycles.
+
+However, widespread use of timber construction may require early coordination with regulators, insurers and supply chains, particularly in relation to fire regulations, acoustic performance and long-term durability.
+
+## Automation and robotics in construction
+
+Construction automation is also advancing rapidly.
+
+Robotic systems are increasingly being used for tasks such as:
+
+- automated earthworks and site preparation  
+- robotic bricklaying and block placement  
+- precision concrete finishing  
+- automated surveying and inspection  
+
+At the same time, **inspection drones and mobile scanning systems** are becoming routine tools for monitoring construction progress and verifying work.
+
+While these technologies are unlikely to eliminate the need for skilled labour, they may significantly improve productivity and consistency over long construction programmes.
+
+For a project as large as Forest City, designing sites and logistics systems that can accommodate **robotic equipment and automated construction workflows** could become increasingly valuable.
+
+## Digital quality assurance and “scan-as-built” construction
+
+Large developments often suffer from discrepancies between design drawings and what is actually built.
+
+Emerging digital construction techniques aim to address this through **routine scanning and verification during construction**, producing accurate digital records of completed work.
+
+These approaches may include:
+
+- routine LiDAR scanning of structures during construction  
+- automated comparison between design models and scanned reality  
+- digital handover of verified “as-built” models to building operators  
+
+This approach aligns closely with the **digital twin principles described in Chapter 4**, ensuring that the city’s digital model reflects the real built environment as accurately as possible.
+
+At city scale, such practices could dramatically reduce long-term maintenance and operational risks.
+
+## Local supply chains and advanced fabrication
+
+Another opportunity for a development of Forest City’s scale is the creation of **local manufacturing and fabrication capacity**.
+
+High demand for building components over a sustained period could support regional manufacturing of:
+
+- modular building elements  
+- engineered timber components  
+- prefabricated façade systems  
+- CNC-milled stone and architectural components  
+
+Advanced fabrication technologies, including CNC machining and automated milling, increasingly make it possible to produce **high-quality architectural materials at scale while retaining design flexibility**.
+
+Encouraging such supply chains could improve economic resilience while reducing transport and construction emissions.
+
+## Early infrastructure provisions
+
+As with energy infrastructure, the most important question for Forest City is not which technologies will ultimately dominate, but **what enabling conditions should be designed into the city from the start**.
+
+Low-regret provisions that may support a wide range of construction approaches include:
+
+- reserving logistics space for large-scale construction staging  
+- ensuring road layouts and site access suitable for heavy modular transport  
+- designing crane access and lifting zones into early masterplans  
+- establishing standards for **scan-as-built verification and digital handover**  
+- ensuring building data and models integrate cleanly into the city’s digital twin  
+
+These provisions are relatively inexpensive to plan early but difficult to retrofit once large areas of the city have been built.
+
+## Construction systems as long-term infrastructure
+
+Construction methods are often treated as temporary decisions affecting only the building phase. However, for a development of Forest City’s scale and duration, construction systems themselves become a form of **long-term infrastructure**.
+
+By designing the city to accommodate industrialised construction, automated building processes and advanced fabrication methods, Forest City could significantly improve build speed, reduce costs and lower the carbon footprint of the development.
+
+The objective of this chapter is therefore not to select a single construction technology, but to ensure that Forest City’s design and governance frameworks allow the **most effective construction methods available at any point during the build-out to be deployed efficiently**.
 
 # Chapter 3 — Data networking
 
@@ -443,7 +547,7 @@ If that future materialises, households and local businesses could adopt technol
 
 ### End-consumer supply: three-phase, high-current service provision (design-in now)
 
-Forest City should strongly recommend that every end-consumer premise is provided with **three-phase supply capability** and service equipment/tails sized to **at least 100 amps**, even if initial loads do not require it.
+Forest City should strongly recommend that every end-consumer's premises are provided with **three-phase supply capability** and service equipment/tails sized to **at least 100 amps**, even if initial loads do not require it.
 
 - This recommendation should be framed as optionality rather than immediate necessity.
 - The incremental physical cost of installing two additional conductors and appropriately rated service heads during initial construction is expected to be small compared to the cost and disruption of retrofitting later.
