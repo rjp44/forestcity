@@ -115,19 +115,19 @@ In the conventional model, the city would rely primarily on the national transmi
 
 Electricity would be delivered via **Grid Supply Points (GSPs)**—the substations where electricity from the national transmission network is transferred to regional distribution networks.
 
-Initial investigations suggest that the **nearest primary GSP at Burwell** is already close to full capacity.[^1] As a result, it is unlikely that a development on the scale of Forest City could rely solely on this infrastructure.
+Initial investigations suggest that the **nearest primary GSP at Burwell** is already close to full capacity.<sup>[<a href="#ref-1">1</a>]</sup> As a result, it is unlikely that a development on the scale of Forest City could rely solely on this infrastructure.
 
 In practice, the **National Energy System Operator (NESO)** may require that the city connects to **multiple GSPs**, both to provide sufficient capacity and to ensure system resilience. This could imply the construction of **new high-capacity transmission connections and potentially a second GSP-scale connection** serving the development.
 
 Although a number of solar farms exist in the surrounding region, these installations cannot materially reduce the size of grid infrastructure that must be constructed. Transmission systems must be sized assuming **non-production from intermittent sources**, meaning the city must be capable of importing its full peak demand from the grid when renewable generation is unavailable.
 
-Using conventional planning assumptions, providing electricity infrastructure at this scale could involve **capital expenditure in the region of £2.4 billion to £2.8 billion**, depending on the final connection architecture and delivery model.[^2][^3]
+Using conventional planning assumptions, providing electricity infrastructure at this scale could involve **capital expenditure in the region of £2.4 billion to £2.8 billion**, depending on the final connection architecture and delivery model.<sup>[<a href="#ref-2">2</a>][<a href="#ref-3">3</a>]</sup>
 
 ### Load smoothing and distributed storage
 
 One important factor that could significantly influence the final infrastructure requirement is the **ability to smooth peak demand**. The headline **~460 MVA peak demand** reflects a conventional planning assumption in which buildings draw power from the grid in real time with limited buffering, storage or local generation capacity. However, emerging storage technologies and local generation (primarily solar) make it increasingly possible to shift and smooth electrical demand over time.
 
-Modern **LiFePO₄ (lithium iron phosphate) battery systems** are sufficiently safe and cost-effective to be deployed at domestic scale. A battery pack roughly the size of a household refrigerator can store enough energy to supply a typical property for at least **24 hours of normal operation**, depending on system efficiency and heating configuration and whether other primary heat sources besides electricity are used (see below).[^4]
+Modern **LiFePO₄ (lithium iron phosphate) battery systems** are sufficiently safe and cost-effective to be deployed at domestic scale. A battery pack roughly the size of a household refrigerator can store enough energy to supply a typical property for at least **24 hours of normal operation**, depending on system efficiency and heating configuration and whether other primary heat sources besides electricity are used (see below).<sup>[<a href="#ref-4">4</a>]</sup>
 
 If large numbers of properties within the city were equipped with such storage, with or without local micro generation, and if these systems were orchestrated collectively, the city could effectively operate a **distributed battery fleet**.
 
@@ -148,7 +148,7 @@ Much of the near-term UK commercial environment encourages energy minimisation: 
 
 **Figure 1. Rolls Royce SMR render (image courtesy of Rolls Royce)**
 
-However, one plausible future is the opposite: a world of abundant electricity, driven by a combination of new nuclear (including SMR programmes), grid-scale renewables, storage, and other developments that materially reduce marginal cost and increase supply.[^5] In such a scenario, the binding constraint for homes and businesses may move from "energy scarcity" to "how do we take advantage of cheap, plentiful power safely and flexibly?"
+However, one plausible future is the opposite: a world of abundant electricity, driven by a combination of new nuclear (including SMR programmes), grid-scale renewables, storage, and other developments that materially reduce marginal cost and increase supply.<sup>[<a href="#ref-5">5</a>]</sup> In such a scenario, the binding constraint for homes and businesses may move from "energy scarcity" to "how do we take advantage of cheap, plentiful power safely and flexibly?"
 
 If that future materialises, households and local businesses could adopt technologies with far higher electrical demand than current norms—examples might include robotics (potentially including humanoid robots), more intensive local automation, high-capacity charging, and substantially increased local or regional compute footprints. Even if these outcomes arrive unevenly, the retrofit cost of upgrading end-consumer electrical supply and local distribution capacity could be extremely high relative to the modest incremental cost of designing-in headroom during initial construction.
 
@@ -161,13 +161,13 @@ The implications of this approach could include:
 - hydrogen production and industrial processes
 - long-term energy cost stability
 
-If periods of electricity abundance arise, the city could both become a net exporter and also support **large-scale electrolysis facilities to produce hydrogen**. Electrolysers can act as flexible electrical loads, absorbing surplus electricity and converting it into storable fuel for transport, industry or long-term energy storage.[^6][^7]
+If periods of electricity abundance arise, the city could both become a net exporter and also support **large-scale electrolysis facilities to produce hydrogen**. Electrolysers can act as flexible electrical loads, absorbing surplus electricity and converting it into storable fuel for transport, industry or long-term energy storage.<sup>[<a href="#ref-6">6</a>][<a href="#ref-7">7</a>]</sup>
 
 However, the SMR-based architecture is currently treated as a **strategic option rather than a dependency**. The development and its core infrastructure should not rely on the availability of SMR technology, given the regulatory, financing and programme uncertainties currently involved.
 
 ### End-consumer supply: three-phase, high-current service provision (design-in now)
 
-Forest City should strongly recommend that every end-consumer's premises are provided with **three-phase supply capability** and service equipment/tails sized to **at least 100 amps**, even if initial loads do not require it.[^8]
+Forest City should strongly recommend that every end-consumer's premises are provided with **three-phase supply capability** and service equipment/tails sized to **at least 100 amps**, even if initial loads do not require it.<sup>[<a href="#ref-8">8</a>]</sup>
 
 - This recommendation should be framed as optionality rather than immediate necessity.
 - The incremental physical cost of installing two additional conductors and appropriately rated service heads during initial construction is expected to be small compared to the cost and disruption of retrofitting later.
@@ -192,7 +192,7 @@ In practical terms, the guiding principle should be:
 
 Large electricity connections also create opportunities to co-locate **high-capacity data centre infrastructure** near the primary grid connections serving the city.
 
-Data centres convert almost all of the electricity they consume into heat. Rather than treating this heat as waste, the city could treat it as a **valuable thermal resource**. Waste heat from data centres could be captured and distributed through **district heating networks**, significantly reducing the energy required to heat buildings across the city.[^9][^10]
+Data centres convert almost all of the electricity they consume into heat. Rather than treating this heat as waste, the city could treat it as a **valuable thermal resource**. Waste heat from data centres could be captured and distributed through **district heating networks**, significantly reducing the energy required to heat buildings across the city.<sup>[<a href="#ref-9">9</a>][<a href="#ref-10">10</a>]</sup>
 
 This approach could be strengthened further through the use of **large-scale underground thermal storage**, sometimes referred to as **seasonal thermal batteries**. These systems allow excess heat produced during periods of high data centre activity to be stored underground and recovered later when heating demand increases.
 
@@ -202,7 +202,7 @@ If implemented at sufficient scale, this combination of **data centre heat recov
 
 Alongside heat recovery, the city may also be able to draw on **geothermal energy systems**. Conventional UK policy has tended to prioritise geothermal development only in locations where natural geothermal “hot spots” exist. However, the area between **Haverhill and Newmarket does not appear to have significant natural geothermal hotspots**, which might traditionally make geothermal development less likely.
 
-This assumption may now need to be reconsidered. The UK possesses extensive deep drilling expertise developed through decades of **North Sea oil and gas exploration**, and advances in hard-rock and deep drilling technologies mean geothermal systems may now be technically feasible in locations that lack natural geothermal reservoirs.[^11]
+This assumption may now need to be reconsidered. The UK possesses extensive deep drilling expertise developed through decades of **North Sea oil and gas exploration**, and advances in hard-rock and deep drilling technologies mean geothermal systems may now be technically feasible in locations that lack natural geothermal reservoirs.<sup>[<a href="#ref-11">11</a>]</sup>
 
 Many modern geothermal designs use **closed-loop systems**, in which fluids circulate through sealed underground pipe networks rather than relying on natural aquifers. These systems significantly reduce environmental risks such as groundwater contamination and can operate without requiring naturally occurring geothermal water reservoirs.
 
@@ -237,7 +237,7 @@ The objective is not to prescribe a single construction method, but to identify 
 
 ## Industrialised construction
 
-One of the most significant shifts in construction globally is the gradual move toward **industrialised construction**.[^12][^13]
+One of the most significant shifts in construction globally is the gradual move toward **industrialised construction**.<sup>[<a href="#ref-12">12</a>][<a href="#ref-13">13</a>]</sup>
 
 Instead of constructing most building components on site, industrialised approaches manufacture large parts of buildings in controlled factory environments before transporting them to site for assembly. These approaches include:
 
@@ -268,7 +268,7 @@ Engineered timber offers several potential advantages:
 - high structural strength-to-weight ratios
 - opportunities for hybrid structures combining timber, steel and concrete
 
-Many European cities are already seeing mid-rise and high-rise buildings constructed using timber or hybrid structural systems.[^14][^15] For Forest City, engineered timber could play an important role in reducing the carbon footprint of the development while also supporting faster construction cycles.
+Many European cities are already seeing mid-rise and high-rise buildings constructed using timber or hybrid structural systems.<sup>[<a href="#ref-14">14</a>][<a href="#ref-15">15</a>]</sup> For Forest City, engineered timber could play an important role in reducing the carbon footprint of the development while also supporting faster construction cycles.
 
 ![School in France built from Cross Laminated Timber](assets/clt.jpg)
 
@@ -346,11 +346,11 @@ Forest City therefore has an opportunity to design connectivity infrastructure f
 
 ## Strategic fibre routes through the site
 
-The proposed Forest City footprint benefits from the presence of several significant fibre infrastructure assets in the surrounding area. Most notably, a major transnational fibre route linking London and Amsterdam passes close to the site and is believed to include a possible breakout site within or near the development boundary.[^16][^17]
+The proposed Forest City footprint benefits from the presence of several significant fibre infrastructure assets in the surrounding area. Most notably, a major transnational fibre route linking London and Amsterdam passes close to the site and is believed to include a possible breakout site within or near the development boundary.<sup>[<a href="#ref-16">16</a>][<a href="#ref-17">17</a>]</sup>
 
 This route forms part of the wider European long-haul fibre network and provides extremely high-capacity connectivity between major digital hubs including London, Amsterdam and other European exchange points.
 
-In addition, Cambridge City Council and the University of Cambridge operate fibre ducting extending from Cambridge toward Linton, which runs close to the boundary of the proposed development area.[^18][^19]
+In addition, Cambridge City Council and the University of Cambridge operate fibre ducting extending from Cambridge toward Linton, which runs close to the boundary of the proposed development area.<sup>[<a href="#ref-18">18</a>][<a href="#ref-19">19</a>]</sup>
 
 Taken together, these assets mean that **Forest City has the potential to obtain direct dark fibre access toward Cambridge, London and Amsterdam**, providing an unusually strong foundation for digital connectivity.
 
@@ -360,13 +360,13 @@ Major fibre routes are often installed alongside transport infrastructure such a
 
 The proposed development area is located close to several such transport corridors, increasing the likelihood that additional fibre routes will either pass through the site or can be connected to it relatively easily. The presence of multiple routes significantly improves resilience, as fibre networks can be designed so that traffic can automatically reroute if a cable is damaged.
 
-This combination of international trunk fibre, regional fibre routes and transport-corridor connectivity creates an opportunity to design Forest City’s data infrastructure with unusually high levels of redundancy and capacity from the outset.[^20]
+This combination of international trunk fibre, regional fibre routes and transport-corridor connectivity creates an opportunity to design Forest City’s data infrastructure with unusually high levels of redundancy and capacity from the outset.<sup>[<a href="#ref-20">20</a>]</sup>
 
 ## District connectivity centres
 
 Rather than treating connectivity as a purely centralised system, Forest City could adopt a distributed connectivity architecture.
 
-One possible model would be to establish a number of district connectivity centres located throughout the city.[^21] These facilities would act as local aggregation points where fibre from buildings, neighbourhoods and mobile networks connects into the wider metropolitan and international fibre network.
+One possible model would be to establish a number of district connectivity centres located throughout the city.<sup>[<a href="#ref-21">21</a>]</sup> These facilities would act as local aggregation points where fibre from buildings, neighbourhoods and mobile networks connects into the wider metropolitan and international fibre network.
 
 Each connectivity centre could include:
 
@@ -397,7 +397,7 @@ The relationship between power infrastructure, fibre connectivity and heat netwo
 
 The presence of high-capacity international fibre routes near the development also creates the possibility of establishing a local internet exchange fabric within Forest City.
 
-This should not be viewed as an attempt to create a new national or international internet exchange comparable to existing hubs such as the London Internet Exchange or the Amsterdam Internet Exchange.[^22] Forest City’s geographic proximity to London means that the latency advantages of such a facility for conventional internet traffic would likely be limited.
+This should not be viewed as an attempt to create a new national or international internet exchange comparable to existing hubs such as the London Internet Exchange or the Amsterdam Internet Exchange.<sup>[<a href="#ref-22">22</a>]</sup> Forest City’s geographic proximity to London means that the latency advantages of such a facility for conventional internet traffic would likely be limited.
 
 Instead, the primary value of a local exchange would be enabling ultra-high-bandwidth traffic between organisations located within the city itself.
 
@@ -427,7 +427,7 @@ In some cases the first operator to deploy infrastructure can effectively establ
 
 ### Municipal fibre networks
 
-Some cities choose to build and operate their own fibre networks, providing services directly to residents and businesses.[^23][^22]
+Some cities choose to build and operate their own fibre networks, providing services directly to residents and businesses.<sup>[<a href="#ref-23">23</a>][<a href="#ref-22">22</a>]</sup>
 
 Municipal fibre networks can ensure universal coverage and competitive pricing, but they require significant operational expertise and ongoing management.
 
@@ -471,9 +471,9 @@ As with energy and construction systems, the most important step for Forest City
 
 Low-regret provisions include:
 
-- installing extensive carrier-neutral ducting throughout the city[^20]
-- ensuring all buildings include appropriate fibre entry points and risers[^24][^25][^26]
-- reserving locations for district connectivity centres[^21]
+- installing extensive carrier-neutral ducting throughout the city<sup>[<a href="#ref-20">20</a>]</sup>
+- ensuring all buildings include appropriate fibre entry points and risers<sup>[<a href="#ref-24">24</a>][<a href="#ref-25">25</a>][<a href="#ref-26">26</a>]</sup>
+- reserving locations for district connectivity centres<sup>[<a href="#ref-21">21</a>]</sup>
 - protecting routes for long-distance fibre corridors
 - enabling easy interconnection with regional and international fibre networks
 
@@ -503,7 +503,7 @@ A key theme is that these technologies cross over with standard developer tool c
 - **Digital twin baseline: "ground truth" as early infrastructure**  
   In some plausible futures, the speed and reliability with which the project can establish a baseline digital twin becomes a major determinant of schedule and risk. A high-quality baseline can reduce surprises, shorten design cycles, and improve coordination between disciplines. This includes terrain, vegetation, drainage, constraints, and a defensible model of existing assets—particularly underground unknowns.
 - **Digital twin through design: "as-designed" models that remain portable**  
-  As designs develop, developers will use a mix of BIM tools and workflows. Forest City's interest is that outputs remain interoperable and consistently referenced. This is where "GeoBIM" matters: bridging building-scale BIM exchange with city/territory-scale geospatial models so that the city's twin does not fracture into parallel truths.[^27]
+  As designs develop, developers will use a mix of BIM tools and workflows. Forest City's interest is that outputs remain interoperable and consistently referenced. This is where "GeoBIM" matters: bridging building-scale BIM exchange with city/territory-scale geospatial models so that the city's twin does not fracture into parallel truths.<sup>[<a href="#ref-27">27</a>]</sup>
 - **Digital twin in construction: "as-built truth" that is measurable and updateable**  
   A likely direction of travel is that construction verification increasingly relies on routine scanning and evidence capture, not just manual inspection and drawings. The digital twin becomes a maintained record of what was actually built, with repeatable update cycles, quality metrics, and clear responsibility for handover.
 - **A practical focus: quality, formats, and handoffs (GIS ⇄ BIM ⇄ reality capture)**  
@@ -516,15 +516,15 @@ A key theme is that these technologies cross over with standard developer tool c
 ### Concrete capture and data themes (keep and expand)
 
 - **LiDAR (airborne + mobile + handheld): terrain mapping, vegetation, and as-built verification**  
-  LiDAR is likely to remain a primary method for fast capture of topography, structure, and construction progress. The practical issue is less "can we collect LiDAR?" and more "how do we ensure consistent referencing, metadata, and quality so the data is re-usable across the programme?" The section should emphasise that point clouds must be delivered with clear provenance and defined accuracy, and must integrate cleanly into the project's digital twin.[^28]
+  LiDAR is likely to remain a primary method for fast capture of topography, structure, and construction progress. The practical issue is less "can we collect LiDAR?" and more "how do we ensure consistent referencing, metadata, and quality so the data is re-usable across the programme?" The section should emphasise that point clouds must be delivered with clear provenance and defined accuracy, and must integrate cleanly into the project's digital twin.<sup>[<a href="#ref-28">28</a>]</sup>
 - **Mobile/handheld scanning and emerging "democratised capture"**  
   Some futures may see cheap scanning used routinely for progress capture and internal verification. This is promising, but also a quality risk if low-control capture is treated as equivalent to high-integrity baseline surveys. The section should separate "high-integrity truth capture" from "low-friction situational capture", and define where each is acceptable.
 - **Ground penetrating radar (GPR): utilities planning, archaeology/geotech risk reduction**  
-  GPR can reduce uncertainty about what is underground, but only if it is captured, referenced, and stored in a way that can be re-used—especially when combined with known asset records and subsequent as-built updates.[^29]
+  GPR can reduce uncertainty about what is underground, but only if it is captured, referenced, and stored in a way that can be re-used—especially when combined with known asset records and subsequent as-built updates.<sup>[<a href="#ref-29">29</a>]</sup>
 - **Open mapping and GIS: what can be open, what must be protected**  
   There is a plausible future where open mapping accelerates planning, innovation, and accountability—yet it must be balanced against security and privacy risks. Regardless of what is public, the internal programme twin should treat underground asset truth and constraints mapping as critical dependencies.
 - **Open tooling as an enabler (e.g., QGIS)**  
-  We should explicitly consider open-source tooling such as QGIS as part of an interoperability strategy—not necessarily as the only tool, but as a practical test of portability. Mandating that key deliverables can be inspected and validated in open tooling is a concrete way to reduce lock-in risk and keep the twin maintainable for decades.[^28]
+  We should explicitly consider open-source tooling such as QGIS as part of an interoperability strategy—not necessarily as the only tool, but as a practical test of portability. Mandating that key deliverables can be inspected and validated in open tooling is a concrete way to reduce lock-in risk and keep the twin maintainable for decades.<sup>[<a href="#ref-28">28</a>]</sup>
 
 ## "Open Source City"
 
@@ -553,7 +553,7 @@ Forest City should therefore consider the following minimum responses:
    - **Federation via open standards:** allow multiple platforms, but require a rigorous set of open deliverables, shared referencing, and a defined "authoritative truth layer" that remains consistent across systems.  
    The common failure mode at city scale is not lack of tools, but fragmented, inconsistent models. A deliberate choice early reduces that risk.
 2. **Mandate open, interoperable deliverables at each lifecycle stage (even if a single platform is chosen)**  
-   Even if Forest City standardises on one platform, it should still require exportable open deliverables to avoid long-term dependency and to keep data reusable.[^30][^31][^32][^33] In practice, this means requiring baseline surveys, design models, and as-built captures to be delivered in open or widely interoperable forms as a minimum "public truth layer".
+   Even if Forest City standardises on one platform, it should still require exportable open deliverables to avoid long-term dependency and to keep data reusable.<sup>[<a href="#ref-30">30</a>][<a href="#ref-31">31</a>][<a href="#ref-32">32</a>][<a href="#ref-33">33</a>]</sup> In practice, this means requiring baseline surveys, design models, and as-built captures to be delivered in open or widely interoperable forms as a minimum "public truth layer".
 3. **Define "digital twin quality" as measurable requirements**  
    "We have a digital twin" should be testable. Forest City should define minimum expectations for:
    - coordinate systems and control networks
@@ -564,7 +564,7 @@ Forest City should therefore consider the following minimum responses:
 4. **Require a maintained digital twin through construction, not a one-off model**  
    Forest City should set expectations that the twin is updated at defined milestones (and potentially on a cadence during heavy construction). The deliverable should be a living record supporting coordination, reducing disputes, and improving handover into operations.
 5. **Insist on robust GIS ⇄ BIM handoffs ("GeoBIM")**  
-   If Forest City does not plan for GIS/BIM integration early, the project risks parallel universes: one city-scale model and one building-scale model that do not align. Forest City should therefore require consistent referencing, clear transformations, and unambiguous ownership of the "authoritative" layers of truth.[^27][^33]
+   If Forest City does not plan for GIS/BIM integration early, the project risks parallel universes: one city-scale model and one building-scale model that do not align. Forest City should therefore require consistent referencing, clear transformations, and unambiguous ownership of the "authoritative" layers of truth.<sup>[<a href="#ref-27">27</a>][<a href="#ref-33">33</a>]</sup>
 6. **Use open-source tooling as a compliance test, not an ideology**  
    A practical enforcement mechanism is to require that key deliverables can be loaded, inspected, and processed in open tooling (e.g., QGIS for GIS layers and point clouds). This is a check that the programme is not trapped in a single proprietary ecosystem—even if one primary platform is chosen.
 7. **Treat underground asset truth as a first-class dependency**  
@@ -591,11 +591,11 @@ This section explores potential futures in which federated, open smart home tech
 ## Outline thoughts we will report on
 
 - **Energy purchasing and demand management**  
-  In some plausible futures, federated smart home systems could allow residents (or resident cooperatives) to participate in collective energy purchasing, coordinated load shifting, or flexible demand response.[^34] These approaches might reduce peak electricity usage, lower costs, and reduce strain on local infrastructure. However, their viability will depend on evolving market structures, regulation, device interoperability, and resident trust—any of which could develop in different directions.
+  In some plausible futures, federated smart home systems could allow residents (or resident cooperatives) to participate in collective energy purchasing, coordinated load shifting, or flexible demand response.<sup>[<a href="#ref-34">34</a>]</sup> These approaches might reduce peak electricity usage, lower costs, and reduce strain on local infrastructure. However, their viability will depend on evolving market structures, regulation, device interoperability, and resident trust—any of which could develop in different directions.
 - **Smart home monitoring and resident protection**  
   Some futures may see optional, privacy-preserving in-home sensing support improved safety and wellbeing—ranging from environmental monitoring (air quality, humidity, temperature) to safety detection (falls, smoke, unusual inactivity) and limited health monitoring (patterns that may indicate risk). Adoption is likely to be uneven and culturally sensitive. The section should therefore frame these capabilities as possibilities that may emerge, alongside risks such as overreach, surveillance concerns, misuse, and cybersecurity exposure.
 - **Integration with wider city systems**  
-  It is possible that future city systems—particularly energy systems—will increasingly expose interfaces for demand response, dynamic tariffs, and resilience measures (e.g., islanding modes, local constraints). Federated smart home systems could integrate with these city interfaces, but only if designed around open standards and clear governance. This section should explore what "good" integration might look like, without committing to a specific platform.[^36][^37]
+  It is possible that future city systems—particularly energy systems—will increasingly expose interfaces for demand response, dynamic tariffs, and resilience measures (e.g., islanding modes, local constraints). Federated smart home systems could integrate with these city interfaces, but only if designed around open standards and clear governance. This section should explore what "good" integration might look like, without committing to a specific platform.<sup>[<a href="#ref-36">36</a>][<a href="#ref-37">37</a>]</sup>
 
 ## How Forest City should respond
 
@@ -623,39 +623,53 @@ Forest City is unlikely to build federated smart home platforms itself. The key 
 
 Sources and further reading
 
-[^1]: UK Power Networks Open Data. *NODD (refine.gsp=BURWELL)*. <https://ukpowernetworks.opendatasoft.com/pages/nodd/?refine.gsp=BURWELL>
-[^2]: IET (2022). *Electricity transmission costing study* (PDF). <https://www.theiet.org/media/9376/electricity-transmission-costing-study.pdf>
-[^3]: National Grid Electricity Transmission. *How much will it cost?* <https://www.nationalgrid.com/electricity-transmission/how-to-get-connected/researching-your-connection/how-much-will-it-cost>
-[^4]: Ofgem. *Average gas and electricity use explained*. <https://www.ofgem.gov.uk/average-gas-and-electricity-use-explained>
-[^5]: UK Government (2025-06-10). *Rolls‑Royce SMR selected to build small modular nuclear reactors*. GOV.UK. <https://www.gov.uk/government/news/rolls-royce-smr-selected-to-build-small-modular-nuclear-reactors>
-[^6]: IEA. *Electrolysers*. <https://www.iea.org/energy-system/low-emission-fuels/electrolysers>
-[^7]: European Parliament (2025). *Flexibility and electrification: the role of electrolysers in the power system* (PDF). <https://www.europarl.europa.eu/RegData/etudes/STUD/2025/769347/ECTI_STU%282025%29769347_EN.pdf>
-[^8]: UK Power Networks (2024-11-19). *EDS 08‑2101: LV Customer Supplies Up To 100A* (PDF). <https://media.umbraco.io/uk-power-networks/qknhfer1/eds-08-2101-lv-customer-supplies-up-to-100a.pdf>
-[^9]: DESNZ (2023-11-03). *Thousands of homes to be kept warm by waste heat from computer data centres in UK first*. GOV.UK. <https://www.gov.uk/government/news/thousands-of-homes-to-be-kept-warm-by-waste-heat-from-computer-data-centres-in-uk-first>
-[^10]: IRENA. *Waste heat recovery from data centres* (Innovation landscape). <https://www.irena.org/Innovation-landscape-for-smart-electrification/Power-to-heat-and-cooling/31-Waste-heat-recovery-from-data-centres>
-[^11]: BBC News. *Earth's heat to power 10,000 homes in renewable energy first for UK*. <https://www.bbc.co.uk/news/articles/cewzg77k721o>
-[^12]: KPMG (2023). *Smart Construction: How offsite manufacturing can transform UK construction*. <https://kpmg.com/uk/en/home/insights/2023/06/smart-construction.html>
-[^13]: McKinsey & Company (2019). *Modular construction: From projects to products*. <https://www.mckinsey.com/capabilities/operations/our-insights/modular-construction-from-projects-to-products>
-[^14]: UK Government (2025). *Timber in construction roadmap 2025*. <https://www.gov.uk/government/publications/timber-in-construction-roadmap-2025>
-[^15]: Sweco. *Mjøstårnet – the world’s tallest timber building* (project page). <https://www.sweco.co.uk/projects/mjostarnet/>
-[^16]: Reuters (2022-07-11). *Zayo launches subsea cable route connecting Britain and Europe*. <https://www.reuters.com/business/media-telecom/zayo-launches-subsea-cable-route-connecting-britain-europe-2022-07-11/>
-[^17]: Light Blue Fibre. *Our assets*. <https://www.lightbluefibre.co.uk/about-us/our-assets/>
-[^18]: Greater Cambridge Partnership. *Fibre ducting helps bring faster internet access for Greater Cambridge communities*. <https://www.greatercambridge.org.uk/news/fibre-ducting-helps-to-bring-faster-internet-access-for-greater-cambridge-communities>
-[^19]: University of Cambridge (2022). *University launches fibre network joint venture with Cambridgeshire Council*. <https://www.cam.ac.uk/news/university-launches-fibre-network-joint-venture-with-cambridgeshire-council>
-[^20]: Connecting Cambridgeshire (2024-10-16). *Dig Once policy delivers carbon savings and improved connectivity across Cambridgeshire*. <https://www.connectingcambridgeshire.co.uk/2024/10/16/dig-once-policy-delivers-carbon-savings-and-improved-connectivity-across-cambridgeshire/>
-[^21]: Royal Docks (2022). *Royal Docks Digital Connectivity Study: Executive Report* (PDF). <https://royaldocks.london/media/Royal-Docks-Digital-Connectivity-Study-2022.pdf>
-[^22]: Stokab. *In English* (mission/coverage). <https://stokab.se/In-english/>
-[^23]: IFC (2023). *Municipal Broadband Networks: A Practical Guide to Getting Started* (PDF). <https://www.ifc.org/content/dam/ifc/doc/mgrt/em-compass-note-107-municipal-broadband-networks-for-web.pdf>
-[^24]: UK Government (2022). *Approved Document R, Volume 1: Physical infrastructure and network connection for new dwellings* (PDF). <https://assets.publishing.service.gov.uk/media/637f356ee90e072342b82d4e/ADR1.pdf>
-[^25]: GOV.UK. *New build connectivity: information for developers*. <https://www.gov.uk/guidance/new-build-connectivity-information-for-developers>
-[^26]: Openreach (2024-08). *New Sites Fibre Handbook* (PDF). <https://www.openreach.com/content/dam/openreach/openreach-dam-files/new-dam-%28not-in-use-yet%29/documents/help-support/New-Sites-Fibre-Handbook-August-2024-online.pdf>
-[^27]: buildingSMART & OGC (2024). *BIM–GIS Strategic Roadmap* (PDF). <https://www.buildingsmart.org/wp-content/uploads/2024/05/bSI-OGC-BIM-GIS-Strategic-Roadmap_Industry_Insight_bSI_v2.pdf>
-[^28]: QGIS. *Working with point clouds* (docs). <https://docs.qgis.org/latest/en/docs/user_manual/working_with_point_clouds/point_clouds.html>
-[^29]: GOV.UK. *National Underground Asset Register (NUAR)*. <https://www.gov.uk/guidance/national-underground-asset-register-nuar>
-[^30]: Open Geospatial Consortium (OGC) (2021). *OGC CityGML 3.0 Conceptual Model Standard* (spec). <https://docs.ogc.org/is/20-010/20-010.html>
-[^31]: OGC. *CityJSON*. <https://www.ogc.org/standards/cityjson/>
-[^32]: buildingSMART. *Industry Foundation Classes (IFC)*. <https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/>
-[^33]: Open Geospatial Consortium (OGC). *CityGML*. <https://www.ogc.org/standards/citygml/>
-[^34]: Energy Saving Trust (2025-08-21). *Demand Flexibility Service: get rewards for using less energy*. <https://energysavingtrust.org.uk/demand-flexibility-service/>
-[^35]: Connectivity Standards Alliance. *Matter*. <https://csa-iot.org/all-solutions/matter/>
-[^36]: OpenADR Alliance. *OpenADR*. <https://www.openadr.org/>
+### 1. Energy
+
+<a id="ref-1"></a>[1] UK Power Networks Open Data. *NODD (refine.gsp=BURWELL)*. <https://ukpowernetworks.opendatasoft.com/pages/nodd/?refine.gsp=BURWELL>  
+<a id="ref-2"></a>[2] IET (2022). *Electricity transmission costing study* (PDF). <https://www.theiet.org/media/9376/electricity-transmission-costing-study.pdf>  
+<a id="ref-3"></a>[3] National Grid Electricity Transmission. *How much will it cost?* <https://www.nationalgrid.com/electricity-transmission/how-to-get-connected/researching-your-connection/how-much-will-it-cost>  
+<a id="ref-4"></a>[4] Ofgem. *Average gas and electricity use explained*. <https://www.ofgem.gov.uk/average-gas-and-electricity-use-explained>  
+<a id="ref-5"></a>[5] UK Government (2025-06-10). *Rolls‑Royce SMR selected to build small modular nuclear reactors*. GOV.UK. <https://www.gov.uk/government/news/rolls-royce-smr-selected-to-build-small-modular-nuclear-reactors>  
+<a id="ref-6"></a>[6] IEA. *Electrolysers*. <https://www.iea.org/energy-system/low-emission-fuels/electrolysers>  
+<a id="ref-7"></a>[7] European Parliament (2025). *Flexibility and electrification: the role of electrolysers in the power system* (PDF). <https://www.europarl.europa.eu/RegData/etudes/STUD/2025/769347/ECTI_STU%282025%29769347_EN.pdf>  
+<a id="ref-8"></a>[8] UK Power Networks (2024-11-19). *EDS 08‑2101: LV Customer Supplies Up To 100A* (PDF). <https://media.umbraco.io/uk-power-networks/qknhfer1/eds-08-2101-lv-customer-supplies-up-to-100a.pdf>  
+<a id="ref-9"></a>[9] DESNZ (2023-11-03). *Thousands of homes to be kept warm by waste heat from computer data centres in UK first*. GOV.UK. <https://www.gov.uk/government/news/thousands-of-homes-to-be-kept-warm-by-waste-heat-from-computer-data-centres-in-uk-first>  
+<a id="ref-10"></a>[10] IRENA. *Waste heat recovery from data centres* (Innovation landscape). <https://www.irena.org/Innovation-landscape-for-smart-electrification/Power-to-heat-and-cooling/31-Waste-heat-recovery-from-data-centres>  
+<a id="ref-11"></a>[11] BBC News. *Earth's heat to power 10,000 homes in renewable energy first for UK*. <https://www.bbc.co.uk/news/articles/cewzg77k721o>  
+
+### 2. Building technology
+
+<a id="ref-12"></a>[12] KPMG (2023). *Smart Construction: How offsite manufacturing can transform UK construction*. <https://kpmg.com/uk/en/home/insights/2023/06/smart-construction.html>  
+<a id="ref-13"></a>[13] McKinsey & Company (2019). *Modular construction: From projects to products*. <https://www.mckinsey.com/capabilities/operations/our-insights/modular-construction-from-projects-to-products>  
+<a id="ref-14"></a>[14] UK Government (2025). *Timber in construction roadmap 2025*. <https://www.gov.uk/government/publications/timber-in-construction-roadmap-2025>  
+<a id="ref-15"></a>[15] Sweco. *Mjøstårnet – the world’s tallest timber building* (project page). <https://www.sweco.co.uk/projects/mjostarnet/>  
+
+### 3. Data networking
+
+<a id="ref-16"></a>[16] Reuters (2022-07-11). *Zayo launches subsea cable route connecting Britain and Europe*. <https://www.reuters.com/business/media-telecom/zayo-launches-subsea-cable-route-connecting-britain-europe-2022-07-11/>  
+<a id="ref-17"></a>[17] Light Blue Fibre. *Our assets*. <https://www.lightbluefibre.co.uk/about-us/our-assets/>  
+<a id="ref-18"></a>[18] Greater Cambridge Partnership. *Fibre ducting helps bring faster internet access for Greater Cambridge communities*. <https://www.greatercambridge.org.uk/news/fibre-ducting-helps-to-bring-faster-internet-access-for-greater-cambridge-communities>  
+<a id="ref-19"></a>[19] University of Cambridge (2022). *University launches fibre network joint venture with Cambridgeshire Council*. <https://www.cam.ac.uk/news/university-launches-fibre-network-joint-venture-with-cambridgeshire-council>  
+<a id="ref-20"></a>[20] Connecting Cambridgeshire (2024-10-16). *Dig Once policy delivers carbon savings and improved connectivity across Cambridgeshire*. <https://www.connectingcambridgeshire.co.uk/2024/10/16/dig-once-policy-delivers-carbon-savings-and-improved-connectivity-across-cambridgeshire/>  
+<a id="ref-21"></a>[21] Royal Docks (2022). *Royal Docks Digital Connectivity Study: Executive Report* (PDF). <https://royaldocks.london/media/Royal-Docks-Digital-Connectivity-Study-2022.pdf>  
+<a id="ref-22"></a>[22] Stokab. *In English* (mission/coverage). <https://stokab.se/In-english/>  
+<a id="ref-23"></a>[23] IFC (2023). *Municipal Broadband Networks: A Practical Guide to Getting Started* (PDF). <https://www.ifc.org/content/dam/ifc/doc/mgrt/em-compass-note-107-municipal-broadband-networks-for-web.pdf>  
+<a id="ref-24"></a>[24] UK Government (2022). *Approved Document R, Volume 1: Physical infrastructure and network connection for new dwellings* (PDF). <https://assets.publishing.service.gov.uk/media/637f356ee90e072342b82d4e/ADR1.pdf>  
+<a id="ref-25"></a>[25] GOV.UK. *New build connectivity: information for developers*. <https://www.gov.uk/guidance/new-build-connectivity-information-for-developers>  
+<a id="ref-26"></a>[26] Openreach (2024-08). *New Sites Fibre Handbook* (PDF). <https://www.openreach.com/content/dam/openreach/openreach-dam-files/new-dam-%28not-in-use-yet%29/documents/help-support/New-Sites-Fibre-Handbook-August-2024-online.pdf>  
+
+### 4. Digital twins and the Open Source City
+
+<a id="ref-27"></a>[27] buildingSMART & OGC (2024). *BIM–GIS Strategic Roadmap* (PDF). <https://www.buildingsmart.org/wp-content/uploads/2024/05/bSI-OGC-BIM-GIS-Strategic-Roadmap_Industry_Insight_bSI_v2.pdf>  
+<a id="ref-28"></a>[28] QGIS. *Working with point clouds* (docs). <https://docs.qgis.org/latest/en/docs/user_manual/working_with_point_clouds/point_clouds.html>  
+<a id="ref-29"></a>[29] GOV.UK. *National Underground Asset Register (NUAR)*. <https://www.gov.uk/guidance/national-underground-asset-register-nuar>  
+<a id="ref-30"></a>[30] Open Geospatial Consortium (OGC) (2021). *OGC CityGML 3.0 Conceptual Model Standard* (spec). <https://docs.ogc.org/is/20-010/20-010.html>  
+<a id="ref-31"></a>[31] OGC. *CityJSON*. <https://www.ogc.org/standards/cityjson/>  
+<a id="ref-32"></a>[32] buildingSMART. *Industry Foundation Classes (IFC)*. <https://www.buildingsmart.org/standards/bsi-standards/industry-foundation-classes/>  
+<a id="ref-33"></a>[33] Open Geospatial Consortium (OGC). *CityGML*. <https://www.ogc.org/standards/citygml/>  
+
+### 5. Federated smart home technology
+
+<a id="ref-34"></a>[34] Energy Saving Trust (2025-08-21). *Demand Flexibility Service: get rewards for using less energy*. <https://energysavingtrust.org.uk/demand-flexibility-service/>  
+<a id="ref-35"></a>[35] Connectivity Standards Alliance. *Matter*. <https://csa-iot.org/all-solutions/matter/>  
+<a id="ref-36"></a>[36] OpenADR Alliance. *OpenADR*. <https://www.openadr.org/>  
